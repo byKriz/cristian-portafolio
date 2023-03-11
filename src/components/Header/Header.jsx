@@ -7,12 +7,12 @@ export const Header = () => {
     <div className={styles.headerContainer}>
       <header>
         <div className={styles.logo}>
-          <a href="#">Nick</a>
+          <a href="#">Cristian Esquivel</a>
         </div>
         <nav id="nav">
           <ul>
             <li>
-              <a href="#inicio">INICIO</a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a href="#aboutme">About Me</a>
