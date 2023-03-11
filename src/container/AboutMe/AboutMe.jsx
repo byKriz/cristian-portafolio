@@ -13,10 +13,11 @@ export const AboutMe = () => {
           a passion for creating beautiful and functional user interfaces. I
           specialize in ReactJS, a powerful JavaScript library for building
           dynamic and interactive web applications. I have experience in
-          developing responsive websites using HTML, CSS and JavaScript, as well
-          as working with RESTful APIs and popular frameworks like Bootstrap and
-          Tailwind. I also have knowledge of web accessibility, performance
-          optimization.
+          developing responsive websites using{" "}
+          <span>HTML, CSS and JavaScript,</span> as well as working with{" "}
+          <span>RESTful APIs</span> and popular frameworks like{" "}
+          <span>Bootstrap</span> and <span>Tailwind.</span> I also have knowledge of web
+          accessibility, performance optimization.
         </p>
         <p>
           I'm always eager to learn new skills and technologies to improve my
