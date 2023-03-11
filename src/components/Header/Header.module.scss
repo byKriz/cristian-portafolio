@@ -1,0 +1,59 @@
+@import "../../sass/_variables.scss";
+
+#nav ul li {
+  list-style: none;
+}
+
+.headerContainer {
+  background-color: $bg-color;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: $header-index;
+
+  header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+
+    .logo a {
+      font-family: "Righteous", sans-serif;
+      font-size: 2.25rem;
+      color: $font-primary-color;
+    }
+  }
+
+  header ul {
+    display: flex;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    text-align: none;
+    text-transform: uppercase;
+    color: $font-secondary-color;
+    margin: 0 15px;
+    transition: 0.5s;
+  }
+
+  header nav ul li a:hover {
+    color: $font-primary-color;
+  }
+}
+
+.navResponsive {
+  background-color: $font-primary-color;
+  color: $font-secondary-color;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+
+  svg {
+    margin-bottom: -3px;
+  }
+}
