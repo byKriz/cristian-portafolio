@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./AboutMe.module.scss";
+import cv from "@assets/prueba.pdf";
 
 export const AboutMe = () => {
   return (
-    <section id="about" className={styles.AboutMe}>
+    <section id="aboutme" className={styles.AboutMe}>
       <div className={styles.aboutContainer}>
         <h2>About Me</h2>
         <p>
-          <span>Hi, i am Cristian Esquivel, </span>a frontend web developer with
+          <span>Hi, I am Cristian Esquivel, </span>a frontend web developer with
           a passion for creating beautiful and functional user interfaces. I
           specialize in ReactJS, a powerful JavaScript library for building
           dynamic and interactive web applications. I have experience in
@@ -26,6 +27,9 @@ export const AboutMe = () => {
           free to contact me through email or LinkedIn. I'd love to hear from
           you!
         </p>
+        <a href={cv} download>
+          Download Curriculum
+        </a>
       </div>
     </section>
   );
