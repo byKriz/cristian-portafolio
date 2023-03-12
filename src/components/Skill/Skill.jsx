@@ -3,8 +3,9 @@ import styles from "./Skill.module.scss";
 import { IoLogoJavascript, IoLogoHtml5, IoLogoSass } from "react-icons/io";
 import { AiOutlineApi } from "react-icons/ai";
 import { FaPython, FaReact, FaPeopleCarry } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiVite } from "react-icons/si";
 import { RiTeamFill } from "react-icons/ri";
+import { BsGit } from "react-icons/bs";
 
 const icons = {
   js: <IoLogoJavascript />,
@@ -14,8 +15,10 @@ const icons = {
   api: <AiOutlineApi />,
   python: <FaPython />,
   tailwind: <SiTailwindcss />,
+  git: <BsGit />,
+  vitejs: <SiVite />,
   teamwork: <FaPeopleCarry />,
-  community: <RiTeamFill />,
+  communication: <RiTeamFill />,
 };
 
 export const Skill = ({ tech = "Javascript", icon = "js" }) => {

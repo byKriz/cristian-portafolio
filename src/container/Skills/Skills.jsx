@@ -17,6 +17,10 @@ export const Skills = () => {
             <Skill tech="API" icon="api" />
             <Skill tech="Tailwind CSS" icon="tailwind" />
             <Skill tech="Python" icon="python" />
+            <Skill tech="Git" icon="git" />
+            <Skill tech="ViteJs" icon="vitejs" />
+            <Skill tech="Team Work" icon="teamwork" />
+            <Skill tech="Communication" icon="communication" />
           {/* </div> */}
           {/* <div className={styles.col}>
             <h3>Soft Skills</h3>
