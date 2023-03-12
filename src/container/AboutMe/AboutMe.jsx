@@ -16,8 +16,8 @@ export const AboutMe = () => {
           developing responsive websites using{" "}
           <span>HTML, CSS and JavaScript,</span> as well as working with{" "}
           <span>RESTful APIs</span> and popular frameworks like{" "}
-          <span>Bootstrap</span> and <span>Tailwind.</span> I also have knowledge of web
-          accessibility, performance optimization.
+          <span>Bootstrap</span> and <span>Tailwind.</span> I also have
+          knowledge of web accessibility, performance optimization.
         </p>
         <p>
           I'm always eager to learn new skills and technologies to improve my
@@ -29,10 +29,12 @@ export const AboutMe = () => {
           free to contact me through email or LinkedIn. I'd love to hear from
           you!
         </p>
-        <a href={cv} download>
-          Download Curriculum
-          <BsDownload />
-        </a>
+        <div className={styles.downloadCv}>
+          <a href={cv} download>
+            Download Curriculum
+            <BsDownload />
+          </a>
+        </div>
       </div>
     </section>
   );
