@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const Home = () => {
   return (
-    <section id="Home" className={styles.Home}>
+    <section id="home" className={styles.Home}>
       <div className={styles.bannerContainer}>
         <div className={styles.imgContainer}>
           <img src={profileImg} alt="" />
