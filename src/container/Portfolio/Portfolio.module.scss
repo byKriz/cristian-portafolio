@@ -1,0 +1,26 @@
+@import "../../sass/_variables.scss";
+
+.Portfolio {
+  background-color: $bg-color;
+  color: $font-secondary-color;
+  padding: 50px 20px;
+}
+
+.portfolioContainer {
+  max-width: 1100px;
+  margin: auto;
+
+  h2 {
+    font-size: 3rem;
+    font-family: $principal-font;
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}

@@ -4,6 +4,7 @@ import { Header } from "./components/Header/Header";
 import { Home } from "./container/Home/Home";
 import { AboutMe } from "./container/AboutMe/AboutMe";
 import { Skills } from "./container/Skills/Skills";
+import { Portfolio } from "./container/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <AboutMe />
       <Skills />
+      <Portfolio />
     </div>
   );
 }
