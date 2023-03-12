@@ -20,9 +20,9 @@ export const Header = () => {
             <li>
               <a href="#skills">Skills</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#curriculum">Curriculum</a>
-            </li>
+            </li> */}
             <li>
               <a href="#portafolio">Portafolio</a>
             </li>
