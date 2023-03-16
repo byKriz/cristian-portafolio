@@ -1,0 +1,51 @@
+@import "../../sass/_variables.scss";
+
+.Footer {
+  background-color: $bg-color;
+  color: $font-secondary-color;
+  padding: 20px 40px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.up {
+  font-size: 30px;
+  color: $font-secondary-color;
+  transition: .5s;
+}
+
+.up:hover {
+    color: $font-primary-color;
+}
+
+.socialMedia {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  a {
+    color: $font-secondary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid $font-primary-color;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    // margin: 40px 5px;
+    font-size: 1.25rem;
+    transition: 0.5s;
+  }
+
+  a:hover {
+    background-color: $font-primary-color;
+  }
+}
