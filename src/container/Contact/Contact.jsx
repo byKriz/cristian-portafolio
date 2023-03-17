@@ -29,7 +29,7 @@ export const Contact = () => {
               <span className={styles.overlay}></span>
             </button>
           </div>
-          <div className={styles.col}>
+          <div className={`${styles.col} ${styles.colInfo}`}>
             <img src={location} alt="location" />
             <div className={styles.info}>
               <ul>
