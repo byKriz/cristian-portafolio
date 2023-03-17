@@ -3,6 +3,7 @@ import styles from "./Contact.module.scss";
 import { BsDownload } from "react-icons/bs";
 import { FaPaperPlane } from "react-icons/fa";
 import { MdLocationOn, MdEmail } from "react-icons/md";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import location from "@assets/ubicacion.png";
 
 export const Contact = () => {
@@ -12,26 +13,27 @@ export const Contact = () => {
         <h2>Contact Me</h2>
         <div className={styles.row}>
           <div className={styles.col}>
-            <input type="text" placeholder="Your Name" />
-            <input type="text" placeholder="Your Phone Number" />
-            <input type="text" placeholder="Your Email Adress" />
-            <input type="text" placeholder="Issue" />
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Message"
-            ></textarea>
-            <button>
-              Send Message
-              <FaPaperPlane />
-              <span className={styles.overlay}></span>
-            </button>
+            <span className={styles.data}>Cristian Esquivel</span>
+            <span className={styles.data}>
+              <MdEmail />
+              cristianesquivelh@gmail.com
+            </span>
+            <span className={styles.data}>
+              <MdLocationOn />
+              Caracas, Venezuela
+            </span>
+            <span className={styles.data}>
+              <FaGithub />
+              <a href="#">byKriz</a>
+            </span>
+            <span className={styles.data}>
+              <FaLinkedin />
+              <a href="#">Crstian Esquivel</a>
+            </span>
           </div>
           <div className={`${styles.col} ${styles.colInfo}`}>
             <img src={location} alt="location" />
-            <div className={styles.info}>
+            {/* <div className={styles.info}>
               <ul>
                 <li>
                   <MdLocationOn />
@@ -42,7 +44,7 @@ export const Contact = () => {
                   Email: cristianesquivelh@gmail.com
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

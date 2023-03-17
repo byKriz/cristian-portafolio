@@ -40,6 +40,32 @@
     font-size: 1.125rem;
   }
 
+  span.data {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: $bg-color;
+    color: $font-secondary-color;
+    font-size: 1.125rem;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    a:hover {
+      color: $font-primary-color;
+    }
+
+    svg {
+      font-size: 20px;
+      color: $font-primary-color;
+    }
+  }
+
   button {
     cursor: pointer;
     background-color: transparent;
@@ -104,7 +130,7 @@
 
 @media screen and (max-width: $md) {
   .row {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -116,7 +142,6 @@
   }
 
   .col {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,6 +156,9 @@
     min-width: 350px;
   }
 
+  span.data {
+    min-width: 350px;
+  }
   // .info {
   //   position: relative;
   // }
