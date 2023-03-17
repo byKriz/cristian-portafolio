@@ -51,3 +51,9 @@
     margin-bottom: 10px;
   }
 }
+
+@media screen and (max-width: 440px) {
+  .Skills .skillsContainer {
+    padding: 0 20px;
+  }
+}
