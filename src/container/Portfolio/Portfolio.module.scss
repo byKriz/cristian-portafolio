@@ -24,3 +24,11 @@
     justify-content: space-around;
     
 }
+
+@media screen and (max-width: $md) {
+  
+  .galery {
+    display: block;
+    width: 100%;
+  }
+}

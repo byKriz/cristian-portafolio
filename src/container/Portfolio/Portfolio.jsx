@@ -14,6 +14,9 @@ export const Portfolio = () => {
             <Project />
             <Project img={projectImg2}/>
             <Project img={projectImg3}/>
+            <Project img={projectImg3}/>
+            <Project img={projectImg3}/>
+            <Project img={projectImg3}/>
         </div>
       </div>
     </section>
