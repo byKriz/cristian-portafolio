@@ -57,3 +57,36 @@
     margin-bottom: -3px;
   }
 }
+
+// Agregando responsive
+@media screen and (max-width: 845px) {
+  #nav {
+    transition: 0.5s;
+  }
+
+  .headerContainer nav {
+    display: none;
+  }
+
+  .navResponsive {
+    display: block;
+  }
+
+  nav.responsive {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    background-color: $bg-secundary-color;
+    width: 180px;
+
+    ul {
+      display: block;
+
+      li {
+        border-bottom: 1px solid $font-secondary-color;
+        padding: 10px 0;
+      }
+    }
+  }
+}
