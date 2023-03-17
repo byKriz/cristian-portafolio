@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./Contact.module.scss";
-import { BsDownload } from "react-icons/bs";
-import { FaPaperPlane } from "react-icons/fa";
 import { MdLocationOn, MdEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { BsFillPeopleFill } from "react-icons/bs";
 import location from "@assets/ubicacion.png";
 
 export const Contact = () => {
@@ -13,7 +12,10 @@ export const Contact = () => {
         <h2>Contact Me</h2>
         <div className={styles.row}>
           <div className={styles.col}>
-            <span className={styles.data}>Cristian Esquivel</span>
+            <span className={styles.data}>
+              <BsFillPeopleFill />
+              Cristian Esquivel
+            </span>
             <span className={styles.data}>
               <MdEmail />
               cristianesquivelh@gmail.com
