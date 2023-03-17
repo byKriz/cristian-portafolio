@@ -26,11 +26,18 @@ export const Contact = () => {
             </span>
             <span className={styles.data}>
               <FaGithub />
-              <a href="#">byKriz</a>
+              <a href="https://github.com/byKriz" target={"_blank"}>
+                byKriz
+              </a>
             </span>
             <span className={styles.data}>
               <FaLinkedin />
-              <a href="#">Crstian Esquivel</a>
+              <a
+                href="https://www.linkedin.com/in/cristian-esquivel-351613135/"
+                target={"_blank"}
+              >
+                Crstian Esquivel
+              </a>
             </span>
           </div>
           <div className={`${styles.col} ${styles.colInfo}`}>

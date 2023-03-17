@@ -13,8 +13,8 @@ export const Home = () => {
         <h1>Cristian Esquivel</h1>
         <h2>Frontend Developer - ReactJs Expert</h2>
         <div className={styles.socialMedia}>
-          <a href="#"><FaGithub/></a>
-          <a href="#"><FaLinkedin/></a>
+          <a href="https://github.com/byKriz" target={'_blank'}><FaGithub/></a>
+          <a href="https://www.linkedin.com/in/cristian-esquivel-351613135/" target={'_blank'}><FaLinkedin/></a>
         </div>
       </div>
     </section>
