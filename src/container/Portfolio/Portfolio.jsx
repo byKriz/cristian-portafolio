@@ -1,7 +1,7 @@
 import React from "react";
 import { Project } from "../../components/Project/Project";
 import styles from "./Portfolio.module.scss";
-import projectImg2 from "@assets/p2.jpg";
+import movieApp from "@assets/p2.png";
 import projectImg3 from "@assets/p3.jpg";
 
 export const Portfolio = () => {
@@ -12,11 +12,16 @@ export const Portfolio = () => {
         <div className={styles.galery}>
           <Project
             name="React Pokédex"
-            description="React - ViteJs - Sass"
+            description="React - ViteJs - Axios"
             live="https://pokedexbykriz.netlify.app/"
             repository="https://github.com/byKriz/Poke-React-App"
           />
-          <Project img={projectImg2} />
+          <Project img={movieApp} 
+          name="React Movie App"
+          description="React - Vitejs - Axios"
+          live="https://reactmovieappbykriz.netlify.app/"
+          repository="https://github.com/byKriz/ReactMovieApp"
+          />
           <Project img={projectImg3} />
           <Project img={projectImg3} />
           <Project img={projectImg3} />
