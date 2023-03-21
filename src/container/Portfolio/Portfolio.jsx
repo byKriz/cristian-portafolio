@@ -2,7 +2,7 @@ import React from "react";
 import { Project } from "../../components/Project/Project";
 import styles from "./Portfolio.module.scss";
 import movieApp from "@assets/p2.png";
-import projectImg3 from "@assets/p3.jpg";
+import cryptoView from "@assets/p3.png";
 
 export const Portfolio = () => {
   return (
@@ -22,10 +22,12 @@ export const Portfolio = () => {
           live="https://reactmovieappbykriz.netlify.app/"
           repository="https://github.com/byKriz/ReactMovieApp"
           />
-          <Project img={projectImg3} />
-          <Project img={projectImg3} />
-          <Project img={projectImg3} />
-          <Project img={projectImg3} />
+          <Project img={cryptoView} 
+          name="CryptoView"
+          description="React - Tailwind - Firebase"
+          live="https://cryptoviewbykriz.netlify.app/"
+          repository="https://github.com/byKriz/crypto-view"
+          />
         </div>
       </div>
     </section>
