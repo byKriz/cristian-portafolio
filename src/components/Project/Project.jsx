@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Project.module.scss";
-import projectImg from "@assets/p1.jpg";
+import projectImg from "@assets/p1.png";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineWebAsset } from "react-icons/md";
 
@@ -18,10 +18,10 @@ export const Project = ({
         <h3>{name}</h3>
         <p>{description}</p>
         <div className={styles.links}>
-          <a href={live}>
+          <a href={live} target="_blank">
             <MdOutlineWebAsset />
           </a>
-          <a href={repository}>
+          <a href={repository} target="_blank">
             <FaGithub />
           </a>
         </div>
