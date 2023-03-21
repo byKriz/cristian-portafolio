@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.scss";
-import profileImg from "@assets/hero.png";
+import profileImg from "@assets/profile.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const Home = () => {
