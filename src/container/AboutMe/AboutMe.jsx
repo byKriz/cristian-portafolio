@@ -15,7 +15,7 @@ export const AboutMe = () => {
           dynamic and interactive web applications. I have experience in
           developing responsive websites using{" "}
           <span>HTML, CSS and JavaScript,</span> as well as working with{" "}
-          <span>RESTful APIs</span> and popular frameworks like{" "}
+          <span>RESTful APIs</span> and popular CSS frameworks like{" "}
           <span>Bootstrap</span> and <span>Tailwind.</span> I also have
           knowledge of web accessibility, performance optimization.
         </p>
