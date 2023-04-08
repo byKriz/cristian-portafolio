@@ -3,6 +3,7 @@ import { Project } from "../../components/Project/Project";
 import styles from "./Portfolio.module.scss";
 import movieApp from "@assets/p2.png";
 import cryptoView from "@assets/p3.png";
+import shortUrl from "@assets/p4.png";
 
 export const Portfolio = () => {
   return (
@@ -27,6 +28,12 @@ export const Portfolio = () => {
           description="React - Tailwind - Firebase"
           live="https://cryptoviewbykriz.netlify.app/"
           repository="https://github.com/byKriz/crypto-view"
+          />
+          <Project img={shortUrl} 
+          name="Shortly"
+          description="React - Vitejs - Axios"
+          live="https://react-short-url-bykriz.netlify.app/"
+          repository="https://github.com/byKriz/react-url-short-api"
           />
         </div>
       </div>
