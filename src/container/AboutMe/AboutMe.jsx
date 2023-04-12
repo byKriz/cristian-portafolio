@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./AboutMe.module.scss";
 // import cv from "@assets/prueba.pdf";
 import { BsDownload } from "react-icons/bs";
+import cv from "@assets/cv.pdf";
 
 export const AboutMe = () => {
   return (
@@ -31,7 +32,7 @@ export const AboutMe = () => {
         </p>
         <div className={styles.downloadCv}>
           {/* <a href={cv} download> */}
-          <a href="#" download>
+          <a href={cv} download>
             Download Curriculum
             <BsDownload />
           </a>
